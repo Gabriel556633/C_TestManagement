@@ -1,0 +1,125 @@
+package com.tcs.ms_test_management.domain.dto;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import java.util.Date;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class RptClientsFinalDto {
+
+    private String numeroServicio;
+    private String identificacionCliente;
+    private String estadoCliente;
+    private String segmentoCliente;
+    private String nombreCompleto;
+    private String nombres;
+    private String apellidos;
+    private String nacionalidad;
+    private String tipoIdentificacion;
+    private String genero;
+    private Date fechaNacimiento;
+    private String cuentaFacturacionLegado;
+    private String subcripcion;
+    private String formaPago;
+    private String tecnologia;
+    private String estadoServicio;
+    private String producto;
+    private Date fechaActivacion;
+    private String sucursal;
+    private String descripcionSucursal;
+    private String region;
+    private String locationCode;
+    private String provincia;
+    private String ciudad;
+    private String suproducto;
+    private String descripcionSubproducto;
+    private String accountId;
+    private String cicloFacturacion;
+    private String idPlan;
+    private String descripcionPlan;
+    private String crm;
+    private String correo;
+    private String telefonoCasa;
+    private String telefonoOficina;
+    private String celular;
+    private String distrito;
+    private String direccionDomicilio;
+    private String pais;
+    private String codigoZip;
+    private String subscriptionId;
+    private String neutralGround;
+    private String pedestalNumber;
+    private String port;
+    private String tap;
+    private String amplifierPort;
+    private String building;
+    private String node;
+    private String hub;
+    private String amplifier;
+    private String tapPort;
+    private String olt;
+    private String napCode;
+    private String precintoClient;
+    private String slot;
+    private String neutralPhase;
+    private String groundPhase;
+    private String napPort;
+    private String regeneratedZone;
+    private String frame;
+    private String deviceOfferName1;
+    private String deviceSerialNumber1;
+    private String deviceOfferId1;
+    private String deviceOfferName2;
+    private String deviceSerialNumber2;
+    private String deviceOfferId2;
+    private String deviceOfferName3;
+    private String deviceSerialNumber3;
+    private String deviceOfferId3;
+    private String deviceOfferName4;
+    private String deviceSerialNumber4;
+    private String deviceOfferId4;
+    private String serialNumber;
+    private String vendor;
+    private String model;
+    private String macAddressCm;
+    private String macAddressMta;
+    private String firmwareVersionCm;
+    private String firmwareVersionMta;
+    private String hostnameRouter;
+    private String ipRouter;
+    private String hostnameSwitchAgg;
+    private String ipSwitchAgg;
+    private String macCm;
+    private String idCm;
+    private String interfaceAggToRouter;
+    private String macAgg;
+    private String interfaceAccToAgg;
+    private String hostnameAcc;
+    private String ipAcc;
+    private String macAcc;
+    private String interfaceAccToRmd;
+    private String hostnameRmdCmts;
+    private String ipRmdCmts;
+    private String macRmdCmts;
+    private String nombreNodo;
+    private String macOnt;
+    private Date fechaOnt;
+    private String interfazOltToOnet;
+    private String estado;
+    private String hostnameOlt;
+    private String ipOlt;
+    private String interfaceAccToOlt;
+    private String ipSwitchAcc;
+    private String macSwAcc;
+    private String interfacesToSwAgg;
+    private String interfaceRouterToAgg;
+    private Date fechaRouter;
+    private Date fechaCorte;
+    private Date fechaEjecucion;
+
+    // Getters y Setters
+}
